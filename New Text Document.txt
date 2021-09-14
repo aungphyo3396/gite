@@ -1,0 +1,11 @@
+class A:
+    def _init_(self, brick , wood):
+        self.brick = brick
+        self.wood =wood
+        def built (self) :
+            print('we built', self.brick,'wood', self.wood,'wood')
+
+
+from main import*
+h1 = A(brick=43, wood=32)
+h1.built()
